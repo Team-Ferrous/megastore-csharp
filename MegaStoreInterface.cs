@@ -2,6 +2,8 @@ using System;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
+//download megastore
+//run the following command in its repo: ghc --mk-dll -o Megastore.dll A.o Super.o B.o libmine.a -lgdi32
 public class MegaStoreInterface : MonoBehaviour
 {
     // Importing the saveStoreFFI and loadStoreFFI functions from the Haskell library
