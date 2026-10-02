@@ -2,7 +2,7 @@
 This is a C# interface and a build of megastore that can be used with ghc to create a .dll. This is intended for use with unity and effectively constitutes a Foreign Function Interface (FFI). Untested and not intended for public use
 
 
-## Creating a DLL w/ ghc (from [GHC Manual](https://downloads.haskell.org/~ghc/4.06/docs/users_guide/win32-dlls-create.html)
+## Creating a DLL w/ ghc (from [GHC Manual](https://downloads.haskell.org/~ghc/4.06/docs/users_guide/win32-dlls-create.html))
 Sealing up your Haskell library inside a DLL is quite straightforward; compile up the object files that make up the library, and then build the DLL by issuing the following command:
 
 ```sh$ ghc --mk-dll -o HSsuper.dll A.o Super.o B.o libmine.a -lgdi32```
